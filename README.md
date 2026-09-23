@@ -218,32 +218,12 @@ Improve 🚀
 ```
 
 ---
-
-## 📊 GitHub Activity
-
-## 📊 GitHub Stats
+<h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=abhishekverma2656&show_icons=true&theme=tokyonight&hide_border=true"
-    height="180"
-    alt="GitHub Stats"
-  />
-  <img
-    src="https://streak-stats.demolab.com/?user=abhishekverma2656&theme=tokyonight&hide_border=true"
-    height="180"
-    alt="GitHub Streak"
-  />
+  <img src="./profile/stats.svg" width="400" />
+  <img src="./profile/top-langs.svg" width="400" />
 </p>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhishekverma2656&layout=compact&theme=tokyonight&hide_border=true"
-    height="180"
-    alt="Top Languages"
-  />
-</p>
-
 ---
 
 ## 🐍 Contribution Snake
