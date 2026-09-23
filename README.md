@@ -1,4 +1,6 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=Abhishek%20Verma&fontSize=42&fontAlignY=35&animation=fadeIn" width="100%"/>
+<p align="center">
+  <img src="./assets/abhishek-verma-header.svg" width="100%" alt="Abhishek Verma">
+</p>
 
 <h1 align="center">
   Hi there
