@@ -17,10 +17,11 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=abhishekverma2656&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Java-Backend%20Developer-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java Backend Developer">
+  <img src="https://img.shields.io/badge/Spring%20Boot-Developer-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot Developer">
 </p>
+<hr>
 
----
 
 ## ☕ Java Backend Developer | Spring Boot | REST APIs
 
