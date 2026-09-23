@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=750&lines=Java+Backend+Developer;Spring+Boot+Developer;REST+API+Developer;JPA+%7C+Hibernate+%7C+MySQL;Always+Learning+%26+Building+%F0%9F%9A%80" />
+  <img src="./assets/developer-animation.svg" alt="Java Backend Developer">
 </p>
 
 <p align="center">
@@ -311,4 +311,6 @@ SHIP 🚀
   🚀 Building today. Learning every day. Becoming better every commit.
 </h3>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn" width="100%"/>
+<p align="center">
+  <img src="./assets/bottomsvg.svg" width="100%" alt="Footer">
+</p>
