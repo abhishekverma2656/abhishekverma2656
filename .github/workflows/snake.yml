@@ -3,39 +3,39 @@ name: Generate Snake
 on:
   schedule:
     - cron: "0 0 * * *"
+
   workflow_dispatch:
+
+  push:
+    branches:
+      - main
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     permissions:
       contents: write
 
     steps:
-      - name: Generate Snake
-        uses: Platane/snk@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Contributions Snake
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: abhishekverma2656
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Publish Snake to output branch
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git fetch origin
-          git checkout --orphan output
-
-          git rm -rf . 2>/dev/null || true
-
-          cp dist/github-contribution-grid-snake.svg .
-          cp dist/github-contribution-grid-snake-dark.svg .
-
-          git add .
-          git commit -m "Generate snake animation"
-          git push -f origin output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy Snake to Output Branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "Update snake animation"
