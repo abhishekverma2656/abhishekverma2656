@@ -1,7 +1,9 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=Abhishek%20Verma&fontSize=42&fontAlignY=35&animation=fadeIn" width="100%"/>
 
 <h1 align="center">
-  Hi there 👋 I'm Abhishek Verma
+  Hi there
+  <img src="./assets/hand-waving-hand.gif" width="35px" alt="Waving Hand">
+  I'm Abhishek Verma
 </h1>
 
 <p align="center">
